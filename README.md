@@ -1,2 +1,2 @@
 # finance-tracker
-Finance-tracker application repository
+Finance Tracker application repository
