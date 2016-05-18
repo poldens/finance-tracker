@@ -8,11 +8,12 @@
       </div>
       <div class="col-md-2">
           <%= button_tag(type: :submit, class: "bnt btn-lg btn-success") do %>
-            <i class="fa fa-search"></i> Lookup a stock
+            <i class="fa fa-search"></i> Look up a stock
           <% end %>
       </div>
     </div>
   <% end %>
+  <%= render 'common/spinner' %>
   <% if @stock %>
     <div id="stock-lookup-results" class="well results-block">
       <strong>Symbol:</strong> <%= @stock.ticker %>
