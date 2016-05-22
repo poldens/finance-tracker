@@ -1,7 +1,6 @@
 var init_friend_lookup;
-
-init_friend_lookup = function(){
-  $('#friend-lookup-form').on('ajax:before', function(event, data, status){
+  init_friend_lookup = function(){
+    $('#friend-lookup-form').on('ajax:before', function(event, data, status){
     show_spinner();
   });
   
@@ -24,4 +23,3 @@ init_friend_lookup = function(){
 $(document).ready(function() {
   init_friend_lookup();
 })
-
